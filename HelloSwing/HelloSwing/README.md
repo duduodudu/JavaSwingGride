@@ -1,6 +1,6 @@
 # Java Swing 学习笔记
 
-#
+# JComponent基类
 
 ``` java
 /* 
@@ -25,6 +25,8 @@ void setMinimumSize(Dimension minimumSize)
 // 设置组件的 最大 大小
 void setMaximumSize(Dimension maximumSize)
 ```
+
+# AbstractButton
 
 # 参考连接
 

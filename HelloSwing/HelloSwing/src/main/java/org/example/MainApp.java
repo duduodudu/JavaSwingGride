@@ -1,10 +1,8 @@
 package org.example;
 
-import org.example.demo.MyButtonDemo;
-import org.example.demo.MyLabelDemo;
+import org.example.demo.*;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class MainApp extends JTabbedPane {
     public static void main(String[] args) {
@@ -25,6 +23,12 @@ public class MainApp extends JTabbedPane {
 
     public MainApp() {
         add("JLabel 文本标签", new MyLabelDemo());
+        //
         add("JButton 按钮", new MyButtonDemo());
+        add("JRadioButton 单选按钮", new MyRadioButtonDemo());
+        add("JCheckButton 复选按钮", new MyCheckBoxDemo());
+        add("JToggleButton 开关按钮", new MyToggleButtonDemo());
+        //
+        add("JTextField 文本框", new MyTextFieldDemo());
     }
 }
