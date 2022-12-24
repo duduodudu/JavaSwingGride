@@ -28,6 +28,10 @@ void setMaximumSize(Dimension maximumSize)
 
 # AbstractButton
 
+# 提交到Github报错
+
+`git config --global http.sslVerify "false"`
+
 # 参考连接
 
 - [Java Swing 图形界面开发（目录）](https://blog.csdn.net/xietansheng/article/details/72814492)
