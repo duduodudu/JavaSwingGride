@@ -1,0 +1,5 @@
+**/target/
+**/.idea/
+*.class
+**/download*/
+**/用户二维码信息_*.pdf
